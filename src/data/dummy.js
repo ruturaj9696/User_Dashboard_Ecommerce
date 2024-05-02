@@ -629,7 +629,7 @@ export const earningData = [
     amount: '4,396',
     percentage: '+23%',
     // title: 'Products',
-    title: 'Power Generation',
+    title: 'Irradiation ',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'green-600',
@@ -3167,6 +3167,11 @@ export const stackedChartData = [
     { x: 'May', y: 159.9 },
     { x: 'Jun', y: 159.9 },
     { x: 'July', y: 159.9 },
+    { x: 'Aug', y: 159.9 },
+    { x: 'Sept', y: 150 },
+    { x: 'Oct', y: 140 },
+    { x: 'Nov', y: 155},
+    { x: 'Dec', y: 122},
   ],
   [
     { x: 'Jan', y: 111.1 },
@@ -3176,6 +3181,11 @@ export const stackedChartData = [
     { x: 'May', y: 159.9 },
     { x: 'Jun', y: 159.9 },
     { x: 'July', y: 159.9 },
+    { x: 'Aug', y: 159.9 },
+    { x: 'Sept', y: 165.9 },
+    { x: 'Oct', y: 166.9 },
+    { x: 'Nov', y: 155.9 },
+    { x: 'Dec', y: 110},
   ],
 ];
 
@@ -3214,7 +3224,7 @@ export const stackedPrimaryXAxis = {
 
 export const stackedPrimaryYAxis = {
   lineStyle: { width: 0 },
-  minimum: 100,
+  minimum: 0,
   maximum: 400,
   interval: 100,
   majorTickLines: { width: 0 },

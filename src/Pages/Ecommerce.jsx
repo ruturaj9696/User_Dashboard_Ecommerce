@@ -24,8 +24,8 @@ const Ecommerce = () => {
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400">Earnings</p>
-              <p className="text-2xl">$5000</p>
+              <p className="font-bold text-gray-400">Power Generation</p>
+              <p className="text-2xl">500 kwh</p>
             </div>
           </div>
           <div className="mt-6">
@@ -69,20 +69,20 @@ const Ecommerce = () => {
 
       <div className="flex gap-10 justify-center flex-wrap">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 rounded-2xl md:w-780">
-          <div className="flex justify-between">
+          <div className="flex justify-between m-4">
             <p className="font-semibold text-xl">Revenue Updates</p>
             <div className="flex items-center gap-4">
               <p className="flex items-center text-gray-600 hover:drop-shadow-xl">
                 <span>
                   <BsDot className="text-gray-500 text-2xl" />
                 </span>
-                <span>Expense</span>
+                <span>Expected</span>
               </p>
               <p className="flex items-centerhover:drop-shadow-xl text-green-500">
                 <span>
                   <BsDot className="text-gray-500 text-2xl" />
                 </span>
-                <span>Budget</span>
+                <span>Actual</span>
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Ecommerce = () => {
                     23%
                   </span>
                 </p>
-                <p className="text-gray-500">Budget</p>
+                <p className="text-gray-500">Savings</p>
               </div>
               <div className="mt-8">
                 <p className="flex ">
@@ -124,7 +124,7 @@ const Ecommerce = () => {
               </div>
             </div>
             <div>
-              <Stacked width="320px" height="360px" />
+              <Stacked width="360" height="360px" />
             </div>
           </div>
         </div>
